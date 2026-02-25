@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pro Kanban Board</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+     <h3 id="kanban">Kanban Board</h3>
+  <main id="main-parent">
+
+    <div id="parent">
+      <input type="text" id="title-box" placeholder="Task Title..." />
+      <input type="text" id="description-box" placeholder="Description..." />
+      <button id="Add-btn">Add Task</button>
+    </div>
+
+    <div id="box-parent">
+      <div id="box1" class="kanban-box">
+        <span id="pending">Pending</span>
+      </div>
+      <div id="box2" class="kanban-box">
+        <span id="working">Working</span>
+      </div>
+      <div id="box3" class="kanban-box">
+        <span id="done">Done</span>
+      </div>
+    </div>
+
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
